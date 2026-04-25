@@ -3,16 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBONGA VISUALS | Cinematic Photographer South Africa</title>
     
-    <title>SBONGA VISUALS | Cinematic Photographer in South Africa</title>
-    <meta name="description" content="Professional cinematic photography by Cbonga. Specializing in graduation portraits, golden hour sunsets, and capturing life's most vibrant moments in South Africa.">
-    <meta name="keywords" content="Photographer South Africa, Graduation Photography, Cinematic Portraits, Sunset Photography, Sbonga Visuals">
-    <meta name="author" content="Cbonga">
-
-    <meta property="og:title" content="SBONGA VISUALS | Capturing Moments">
-    <meta property="og:description" content="Cinematic storytelling through the lens. View the gallery.">
-    <meta property="og:image" content="assets/images/sunset-01.JPG">
-    
+    <meta name="description" content="Professional cinematic photography by Cbonga. Specializing in graduation portraits and golden hour shoots in South Africa.">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -22,12 +15,6 @@
         html { scroll-behavior: smooth; }
         body { font-family: 'Inter', sans-serif; }
         .serif { font-family: 'Playfair Display', serif; }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .animate-fade { animation: fadeIn 1.5s ease-out forwards; }
         .social-icon { transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); display: inline-block; }
         .social-icon:hover { transform: scale(1.3); color: #b45309; } 
     </style>
@@ -38,69 +25,70 @@
         <h1 class="serif text-xl md:text-2xl tracking-[0.3em] uppercase font-bold">Sbonga Visuals</h1>
         <div class="hidden md:flex space-x-8 text-[10px] uppercase tracking-[0.2em] font-bold">
             <a href="#gallery" class="hover:text-amber-700 transition">Gallery</a>
+            <a href="#services" class="hover:text-amber-700 transition">Services</a>
             <a href="#about" class="hover:text-amber-700 transition">The Artist</a>
-            <a href="#contact" class="hover:text-amber-700 transition">Bookings</a>
+            <a href="#contact" class="bg-stone-900 text-white px-4 py-2 hover:bg-amber-700 transition">Book Now</a>
         </div>
     </nav>
 
-    <header class="h-[70vh] flex flex-col items-center justify-center text-center px-4 bg-stone-100">
-        <div class="animate-fade">
-            <span class="text-[10px] uppercase tracking-[0.5em] text-stone-400 mb-4 block underline decoration-amber-600 underline-offset-8">Based in South Africa</span>
-            <h2 class="serif text-5xl md:text-8xl italic mb-6">Capturing Moments.</h2>
-            <p class="max-w-md mx-auto text-sm md:text-base text-stone-500 leading-relaxed italic">
-                “Photography is the story I fail to put into words.”
-            </p>
-        </div>
+    <header class="h-[60vh] flex flex-col items-center justify-center text-center px-4 bg-stone-100">
+        <span class="text-[10px] uppercase tracking-[0.5em] text-stone-400 mb-4 block">South Africa</span>
+        <h2 class="serif text-5xl md:text-8xl italic mb-6">Capturing Moments.</h2>
     </header>
 
     <main id="gallery" class="max-w-7xl mx-auto px-6 py-20">
-        <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
-            <div>
-                <h3 class="serif text-3xl md:text-4xl underline decoration-stone-200">Selected Work</h3>
-            </div>
-        </div>
-
+        <h3 class="serif text-3xl md:text-4xl mb-12">Selected Work</h3>
         <div class="columns-1 md:columns-2 gap-8 space-y-8">
-            <div class="break-inside-avoid group overflow-hidden bg-stone-200">
-                <img src="assets/images/sunset-01.JPG" alt="Cinematic sunset landscape in South Africa by Sbonga Visuals" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-1000">
-            </div>
-            <div class="break-inside-avoid group overflow-hidden bg-stone-200">
-                <img src="assets/images/grad-01.JPG" alt="Professional graduation portrait photography South Africa" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-1000">
-            </div>
-            <div class="break-inside-avoid group overflow-hidden bg-stone-200">
-                <img src="assets/images/IMG_2241.JPG" alt="Cinematic close-up portrait photography by Cbonga" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-1000">
-            </div>
+            <img src="assets/images/sunset-01.JPG" alt="Sunset" class="w-full grayscale hover:grayscale-0 transition-all duration-1000">
+            <img src="assets/images/grad-01.JPG" alt="Graduation" class="w-full grayscale hover:grayscale-0 transition-all duration-1000">
+            <img src="assets/images/IMG_2241.JPG" alt="Portrait" class="w-full grayscale hover:grayscale-0 transition-all duration-1000">
         </div>
     </main>
 
-    <section id="about" class="py-24 bg-stone-900 text-stone-100">
-        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-            <div class="order-2 md:order-1">
-                <h3 class="serif text-4xl md:text-5xl mb-8 italic">Behind the Lens</h3>
-                <p class="text-stone-400 leading-relaxed mb-6">
-                    I believe that every person, every sunset, and every milestone carries a unique rhythm. Based in <strong>South Africa</strong>, my work is centered on <strong>cinematic storytelling</strong>.
-                </p>
-                <div class="flex items-center gap-4">
-                    <div class="h-px w-12 bg-amber-600"></div>
-                    <span class="serif italic text-xl tracking-wide">Cbonga</span>
+    <section id="services" class="py-24 bg-stone-50 border-y border-stone-200">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h3 class="serif text-4xl mb-16 italic text-stone-800 underline decoration-amber-600 underline-offset-8">The Experience</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="p-8 bg-white border border-stone-100 shadow-sm hover:shadow-xl transition">
+                    <i class="fa-solid fa-graduation-cap text-amber-700 text-3xl mb-6"></i>
+                    <h4 class="serif text-xl mb-4 italic">Graduations</h4>
+                    <p class="text-stone-500 text-sm leading-relaxed">Capturing the milestone of your hard work with cinematic portraits that last a lifetime.</p>
                 </div>
-            </div>
-            <div class="order-1 md:order-2">
-                <img src="assets/images/IMG_2242.JPG" alt="Cbonga - Lead Photographer at Sbonga Visuals" class="w-full aspect-[4/5] object-cover grayscale brightness-75 border border-stone-800 shadow-2xl">
+                <div class="p-8 bg-white border border-stone-100 shadow-sm hover:shadow-xl transition">
+                    <i class="fa-solid fa-camera-retro text-amber-700 text-3xl mb-6"></i>
+                    <h4 class="serif text-xl mb-4 italic">Cinematic Portraits</h4>
+                    <p class="text-stone-500 text-sm leading-relaxed">Intimate, moody, and full of life. Designed for personal branding or creative expression.</p>
+                </div>
+                <div class="p-8 bg-white border border-stone-100 shadow-sm hover:shadow-xl transition">
+                    <i class="fa-solid fa-mountain-sun text-amber-700 text-3xl mb-6"></i>
+                    <h4 class="serif text-xl mb-4 italic">Golden Hour</h4>
+                    <p class="text-stone-500 text-sm leading-relaxed">Outdoor sessions focused on the natural South African light and landscape.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <footer id="contact" class="bg-white border-t border-stone-100 py-24">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-            <h3 class="serif text-4xl mb-4 italic">Sbonga Visuals</h3>
-            <div class="flex justify-center space-x-12 mb-12">
-                <a href="https://www.instagram.com/sbongangozo" target="_blank" aria-label="Instagram" class="social-icon text-stone-400"><i class="fa-brands fa-instagram text-2xl"></i></a>
-                <a href="https://x.com/gC0d3_photo" target="_blank" aria-label="Twitter/X" class="social-icon text-stone-400"><i class="fa-brands fa-x-twitter text-2xl"></i></a>
-                <a href="mailto:sbongakonkenhlanhla@gmail.com" aria-label="Email" class="social-icon text-stone-400"><i class="fa-regular fa-envelope text-2xl"></i></a>
+    <section id="about" class="py-24 bg-stone-900 text-stone-100">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div>
+                <h3 class="serif text-4xl md:text-5xl mb-8 italic">Behind the Lens</h3>
+                <p class="text-stone-400 mb-6">My work is centered on cinematic storytelling. Based in South Africa, I capture life exactly as it happens.</p>
+                <span class="serif italic text-xl text-amber-600">Cbonga</span>
             </div>
-            <a href="#" class="text-[10px] uppercase tracking-[0.4em] font-bold text-stone-300 hover:text-stone-900 transition">[ Back to Top ]</a>
+            <img src="assets/images/IMG_2242.JPG" alt="Cbonga" class="w-full grayscale brightness-75 border border-stone-800">
         </div>
+    </section>
+
+    <footer id="contact" class="bg-white border-t border-stone-100 py-24 text-center">
+        <h3 class="serif text-4xl mb-8 italic">Ready to tell your story?</h3>
+        <a href="mailto:sbongakonkenhlanhla@gmail.com" class="inline-block bg-stone-900 text-white px-10 py-4 uppercase tracking-widest text-[10px] font-bold hover:bg-amber-700 transition-all duration-300 shadow-lg mb-16">
+            Contact for Bookings
+        </a>
+        <div class="flex justify-center space-x-12 mb-12">
+            <a href="https://www.instagram.com/sbongangozo" target="_blank" class="social-icon text-stone-400"><i class="fa-brands fa-instagram text-2xl"></i></a>
+            <a href="https://x.com/gC0d3_photo" target="_blank" class="social-icon text-stone-400"><i class="fa-brands fa-x-twitter text-2xl"></i></a>
+        </div>
+        <p class="text-[9px] text-stone-300 uppercase tracking-widest">&copy; 2026 Sbonga Visuals.</p>
     </footer>
 
 </body>
