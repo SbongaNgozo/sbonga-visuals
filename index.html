@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>SBONGA VISUALS | Cinematic Photographer South Africa</title>
-    <meta name="description" content="Professional cinematic photography by Cbonga. Specializing in graduation portraits, cinematic storytelling, and golden hour shoots in South Africa. Book your session today.">
-    <meta name="keywords" content="Photographer South Africa, Graduation Photography, Cinematic Portraits, Sunset Photography, Sbonga Visuals, Cbonga Photography">
+    <meta name="description" content="Professional cinematic photography by Cbonga. Specializing in graduation portraits, vibrant storytelling, and golden hour sessions in South Africa. Book your session today.">
+    <meta name="keywords" content="Photographer South Africa, Graduation Photography, Cinematic Portraits, Sunset Photography, Sbonga Visuals, Cbonga">
     <meta name="author" content="Cbonga">
     
     <meta property="og:title" content="SBONGA VISUALS | Capturing Moments">
     <meta property="og:description" content="Cinematic storytelling through the lens. Based in South Africa.">
+    <meta property="og:image" content="assets/images/sunset-01.JPG">
     <meta property="og:type" content="website">
-    
+
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -22,6 +23,13 @@
         html { scroll-behavior: smooth; }
         body { font-family: 'Inter', sans-serif; }
         .serif { font-family: 'Playfair Display', serif; }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade { animation: fadeIn 1.5s ease-out forwards; }
+        
         .social-icon { transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); display: inline-block; }
         .social-icon:hover { transform: scale(1.3); color: #b45309; } 
     </style>
@@ -35,41 +43,71 @@
             <a href="#services" class="hover:text-amber-700 transition">Services</a>
             <a href="#about" class="hover:text-amber-700 transition">The Artist</a>
             <a href="mailto:sbongakonkenhlanhla@gmail.com?subject=Booking%20Inquiry%20|%20Sbonga%20Visuals&body=Hi%20Cbonga,%0D%0A%0D%0AI'm%20interested%20in%20booking%20a%20session.%20Please%20let%20me%20know%20your%20availability%20for:" 
-               class="bg-stone-900 text-white px-4 py-2 hover:bg-amber-700 transition">Book Now</a>
+               class="bg-stone-900 text-white px-4 py-2 hover:bg-amber-700 transition shadow-md">Book Now</a>
         </div>
     </nav>
 
-    <header class="h-[60vh] flex flex-col items-center justify-center text-center px-4 bg-stone-100">
-        <span class="text-[10px] uppercase tracking-[0.5em] text-stone-400 mb-4 block">South Africa</span>
-        <h2 class="serif text-5xl md:text-8xl italic mb-6">Capturing Moments.</h2>
+    <header class="h-[70vh] flex flex-col items-center justify-center text-center px-4 bg-stone-100">
+        <div class="animate-fade">
+            <span class="text-[10px] uppercase tracking-[0.5em] text-stone-400 mb-4 block">South Africa</span>
+            <h2 class="serif text-5xl md:text-8xl italic mb-6">Capturing Moments.</h2>
+            <p class="max-w-md mx-auto text-sm text-stone-500 italic leading-relaxed">
+                “Photography is the story I fail to put into words.”
+            </p>
+        </div>
     </header>
 
-    <main id="gallery" class="max-w-7xl mx-auto px-6 py-20">
-        <h3 class="serif text-3xl md:text-4xl mb-12">Selected Work</h3>
+    <main id="gallery" class="max-w-7xl mx-auto px-6 py-24">
+        <div class="mb-16">
+            <h3 class="serif text-4xl italic">Selected Work</h3>
+            <div class="h-1 w-12 bg-amber-600 mt-4"></div>
+        </div>
+
         <div class="columns-1 md:columns-2 gap-8 space-y-8">
-            <img src="assets/images/sunset-01.JPG" alt="Cinematic sunset landscape photography South Africa" class="w-full grayscale hover:grayscale-0 transition-all duration-1000">
-            <img src="assets/images/grad-01.JPG" alt="Professional graduation portrait photography by Sbonga Visuals" class="w-full grayscale hover:grayscale-0 transition-all duration-1000">
-            <img src="assets/images/IMG_2241.JPG" alt="Close up cinematic portrait" class="w-full grayscale hover:grayscale-0 transition-all duration-1000">
+            <div class="break-inside-avoid group overflow-hidden bg-stone-200">
+                <img src="assets/images/sunset-01.JPG" alt="Cinematic sunset South Africa" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-1000 hover:scale-105">
+            </div>
+            <div class="break-inside-avoid group overflow-hidden bg-stone-200">
+                <img src="assets/images/sunset-02.JPG" alt="Golden hour landscape" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-1000 hover:scale-105">
+            </div>
+            <div class="break-inside-avoid group overflow-hidden bg-stone-200">
+                <img src="assets/images/grad-01.JPG" alt="Professional graduation portrait" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-1000 hover:scale-105">
+            </div>
+            <div class="break-inside-avoid group overflow-hidden bg-stone-200">
+                <img src="assets/images/IMG_8438.JPG" alt="Cinematic lifestyle photography" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-1000 hover:scale-105">
+            </div>
+            <div class="break-inside-avoid group overflow-hidden bg-stone-200">
+                <img src="assets/images/IMG_8444.JPG" alt="Atmospheric portrait capture" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-1000 hover:scale-105">
+            </div>
+            <div class="break-inside-avoid group overflow-hidden bg-stone-200">
+                <img src="assets/images/IMG_2241.JPG" alt="Cinematic close-up portrait" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-1000 hover:scale-105">
+            </div>
+            <div class="break-inside-avoid group overflow-hidden bg-stone-200">
+                <img src="assets/images/IMG_0096.JPG" alt="Candid moment photography" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-1000 hover:scale-105">
+            </div>
+            <div class="break-inside-avoid group overflow-hidden bg-stone-200">
+                <img src="assets/images/IMG_7611.JPG" alt="Outdoor session South Africa" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-1000 hover:scale-105">
+            </div>
         </div>
     </main>
 
-    <section id="services" class="py-24 bg-stone-50 border-y border-stone-200">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-            <h3 class="serif text-4xl mb-16 italic text-stone-800 underline decoration-amber-600 underline-offset-8">The Experience</h3>
+    <section id="services" class="py-24 bg-stone-50 border-y border-stone-200 text-center">
+        <div class="max-w-7xl mx-auto px-6">
+            <h3 class="serif text-4xl mb-16 italic">The Experience</h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="p-8 bg-white border border-stone-100 shadow-sm hover:shadow-xl transition">
-                    <i class="fa-solid fa-graduation-cap text-amber-700 text-3xl mb-6"></i>
-                    <h4 class="serif text-xl mb-4 italic">Graduations</h4>
+                <div class="p-10 bg-white border border-stone-100 hover:shadow-2xl transition-all duration-500 group">
+                    <i class="fa-solid fa-graduation-cap text-amber-700 text-3xl mb-6 transition-transform group-hover:scale-110"></i>
+                    <h4 class="serif text-xl mb-4">Graduations</h4>
                     <p class="text-stone-500 text-sm leading-relaxed">Capturing the milestone of your hard work with cinematic portraits that last a lifetime.</p>
                 </div>
-                <div class="p-8 bg-white border border-stone-100 shadow-sm hover:shadow-xl transition">
-                    <i class="fa-solid fa-camera-retro text-amber-700 text-3xl mb-6"></i>
-                    <h4 class="serif text-xl mb-4 italic">Cinematic Portraits</h4>
+                <div class="p-10 bg-white border border-stone-100 hover:shadow-2xl transition-all duration-500 group">
+                    <i class="fa-solid fa-camera-retro text-amber-700 text-3xl mb-6 transition-transform group-hover:scale-110"></i>
+                    <h4 class="serif text-xl mb-4">Cinematic Portraits</h4>
                     <p class="text-stone-500 text-sm leading-relaxed">Intimate, moody, and full of life. Designed for personal branding or creative expression.</p>
                 </div>
-                <div class="p-8 bg-white border border-stone-100 shadow-sm hover:shadow-xl transition">
-                    <i class="fa-solid fa-mountain-sun text-amber-700 text-3xl mb-6"></i>
-                    <h4 class="serif text-xl mb-4 italic">Golden Hour</h4>
+                <div class="p-10 bg-white border border-stone-100 hover:shadow-2xl transition-all duration-500 group">
+                    <i class="fa-solid fa-mountain-sun text-amber-700 text-3xl mb-6 transition-transform group-hover:scale-110"></i>
+                    <h4 class="serif text-xl mb-4">Golden Hour</h4>
                     <p class="text-stone-500 text-sm leading-relaxed">Outdoor sessions focused on the natural South African light and landscape.</p>
                 </div>
             </div>
@@ -80,25 +118,36 @@
         <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div>
                 <h3 class="serif text-4xl md:text-5xl mb-8 italic">Behind the Lens</h3>
-                <p class="text-stone-400 mb-6">My work is centered on cinematic storytelling. Based in South Africa, I capture life exactly as it happens.</p>
-                <span class="serif italic text-xl text-amber-600">Cbonga</span>
+                <p class="text-stone-400 leading-relaxed mb-6">
+                    I believe every person and every sunset carries a unique rhythm. Based in South Africa, my work is centered on <strong>cinematic storytelling</strong>—capturing life exactly as it happens.
+                </p>
+                <div class="flex items-center gap-4">
+                    <div class="h-px w-12 bg-amber-600"></div>
+                    <span class="serif italic text-2xl text-amber-500">Cbonga</span>
+                </div>
             </div>
-            <img src="assets/images/IMG_2242.JPG" alt="Cbonga - Lead Photographer at Sbonga Visuals" class="w-full grayscale brightness-75 border border-stone-800">
+            <div class="relative group">
+                <img src="assets/images/IMG_2242.JPG" alt="Cbonga - Lead Photographer" class="w-full aspect-[4/5] object-cover grayscale brightness-75 border border-stone-800 shadow-2xl transition duration-700 group-hover:grayscale-0">
+            </div>
         </div>
     </section>
 
     <footer id="contact" class="bg-white border-t border-stone-100 py-24 text-center">
-        <h3 class="serif text-4xl mb-8 italic">Ready to tell your story?</h3>
-        <a href="mailto:sbongakonkenhlanhla@gmail.com?subject=Booking%20Inquiry%20|%20Sbonga%20Visuals&body=Hi%20Cbonga,%0D%0A%0D%0AI'm%20interested%20in%20booking%20a%20session.%20Please%20let%20me%20know%20your%20availability%20for:" 
-           class="inline-block bg-stone-900 text-white px-10 py-4 uppercase tracking-widest text-[10px] font-bold hover:bg-amber-700 transition-all duration-300 shadow-lg mb-16">
-             Contact for Bookings
-        </a>
-        <div class="flex justify-center space-x-12 mb-12">
-            <a href="https://www.instagram.com/sbongangozo" target="_blank" class="social-icon text-stone-400"><i class="fa-brands fa-instagram text-2xl"></i></a>
-            <a href="https://x.com/gC0d3_photo" target="_blank" class="social-icon text-stone-400"><i class="fa-brands fa-x-twitter text-2xl"></i></a>
-            <a href="https://www.pinterest.com/sbongakonkenhlanhla" target="_blank" class="social-icon text-stone-400"><i class="fa-brands fa-pinterest text-2xl"></i></a>
+        <div class="max-w-7xl mx-auto px-6">
+            <h3 class="serif text-4xl mb-8 italic">Ready to tell your story?</h3>
+            <a href="mailto:sbongakonkenhlanhla@gmail.com?subject=Booking%20Inquiry%20|%20Sbonga%20Visuals&body=Hi%20Cbonga,%0D%0A%0D%0AI'm%20interested%20in%20booking%20a%20session.%20Please%20let%20me%20know%20your%20availability%20for:" 
+               class="inline-block bg-stone-900 text-white px-12 py-5 uppercase tracking-widest text-[10px] font-bold hover:bg-amber-700 transition-all duration-300 shadow-xl mb-16">
+                 Start a Conversation
+            </a>
+            
+            <div class="flex justify-center space-x-12 mb-12">
+                <a href="https://www.instagram.com/sbongangozo" target="_blank" aria-label="Instagram" class="social-icon text-stone-400"><i class="fa-brands fa-instagram text-2xl"></i></a>
+                <a href="https://x.com/gC0d3_photo" target="_blank" aria-label="Twitter" class="social-icon text-stone-400"><i class="fa-brands fa-x-twitter text-2xl"></i></a>
+                <a href="https://www.pinterest.com/sbongakonkenhlanhla" target="_blank" aria-label="Pinterest" class="social-icon text-stone-400"><i class="fa-brands fa-pinterest text-2xl"></i></a>
+            </div>
+            
+            <p class="text-[9px] text-stone-300 uppercase tracking-[0.5em]">&copy; 2026 Sbonga Visuals. Developed in Midrand.</p>
         </div>
-        <p class="text-[9px] text-stone-300 uppercase tracking-widest">&copy; 2026 Sbonga Visuals.</p>
     </footer>
 
 </body>
